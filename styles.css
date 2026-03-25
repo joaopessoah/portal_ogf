@@ -4,31 +4,35 @@
 
 /* ---------- CSS Variables ---------- */
 :root {
-    /* Colors */
-    --bg-primary: #06090f;
-    --bg-secondary: #0c1220;
-    --bg-card: #111827;
-    --bg-card-hover: #162033;
-    --bg-glass: rgba(17, 24, 39, 0.6);
+    /* Colors — OGF Advogados Official Palette */
+    --bg-primary: #030135;
+    --bg-secondary: #04186b;
+    --bg-card: #0a1f5c;
+    --bg-card-hover: #0e2a72;
+    --bg-glass: rgba(3, 1, 53, 0.7);
 
-    --gold: #c9a54e;
-    --gold-light: #e4c97a;
-    --gold-dark: #a8882f;
-    --gold-glow: rgba(201, 165, 78, 0.15);
+    --gold: #a1ff2a;
+    --gold-light: #b8ff5e;
+    --gold-dark: #8ae01f;
+    --gold-glow: rgba(161, 255, 42, 0.15);
+
+    --accent-gold: #c99e55;
+    --accent-tan: #EAD9BB;
+    --accent-brown: #775926;
 
     --text-primary: #f1f5f9;
-    --text-secondary: #94a3b8;
-    --text-muted: #64748b;
+    --text-secondary: #b8c5d6;
+    --text-muted: #7a8da6;
 
-    --border: rgba(148, 163, 184, 0.08);
-    --border-hover: rgba(201, 165, 78, 0.25);
+    --border: rgba(161, 255, 42, 0.08);
+    --border-hover: rgba(161, 255, 42, 0.25);
 
     /* Gradients */
-    --gradient-gold: linear-gradient(135deg, #c9a54e, #e4c97a, #c9a54e);
-    --gradient-bg: linear-gradient(180deg, #06090f 0%, #0c1220 100%);
-    --gradient-card: linear-gradient(160deg, rgba(201, 165, 78, 0.05) 0%, transparent 50%);
-    --gradient-hero: radial-gradient(ellipse at 20% 50%, rgba(201, 165, 78, 0.06) 0%, transparent 60%),
-                     radial-gradient(ellipse at 80% 20%, rgba(30, 64, 120, 0.08) 0%, transparent 50%);
+    --gradient-gold: linear-gradient(135deg, #a1ff2a, #b8ff5e, #a1ff2a);
+    --gradient-bg: linear-gradient(180deg, #030135 0%, #04186b 100%);
+    --gradient-card: linear-gradient(160deg, rgba(161, 255, 42, 0.05) 0%, transparent 50%);
+    --gradient-hero: radial-gradient(ellipse at 20% 50%, rgba(161, 255, 42, 0.06) 0%, transparent 60%),
+                     radial-gradient(ellipse at 80% 20%, rgba(4, 24, 107, 0.15) 0%, transparent 50%);
 
     /* Typography */
     --font-heading: 'Playfair Display', Georgia, serif;
@@ -126,7 +130,7 @@ button {
     padding: 0.4rem 1rem;
     border-radius: 100px;
     background: var(--gold-glow);
-    border: 1px solid rgba(201, 165, 78, 0.15);
+    border: 1px solid rgba(161, 255, 42, 0.15);
 }
 
 .section__tag i {
@@ -175,12 +179,12 @@ button {
 .btn--primary {
     background: var(--gradient-gold);
     color: #0a0e1a;
-    box-shadow: 0 4px 20px rgba(201, 165, 78, 0.25);
+    box-shadow: 0 4px 20px rgba(161, 255, 42, 0.25);
 }
 
 .btn--primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 30px rgba(201, 165, 78, 0.35);
+    box-shadow: 0 8px 30px rgba(161, 255, 42, 0.35);
 }
 
 .btn--primary i {
@@ -192,7 +196,7 @@ button {
 }
 
 .btn--outline {
-    border: 1px solid rgba(201, 165, 78, 0.3);
+    border: 1px solid rgba(161, 255, 42, 0.3);
     color: var(--gold-light);
     background: transparent;
 }
@@ -260,7 +264,7 @@ button {
 .logo-divider {
     width: 1px;
     height: 24px;
-    background: rgba(201, 165, 78, 0.3);
+    background: rgba(161, 255, 42, 0.3);
 }
 
 .logo-subtitle {
@@ -305,7 +309,7 @@ button {
 }
 
 .nav__link--cta:hover {
-    box-shadow: 0 4px 20px rgba(201, 165, 78, 0.3);
+    box-shadow: 0 4px 20px rgba(161, 255, 42, 0.3);
     transform: translateY(-1px);
 }
 
@@ -344,7 +348,7 @@ button {
     width: 800px;
     height: 800px;
     border-radius: 50%;
-    background: radial-gradient(circle, rgba(201, 165, 78, 0.03) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(161, 255, 42, 0.03) 0%, transparent 70%);
     animation: pulse-glow 8s ease-in-out infinite;
 }
 
@@ -377,8 +381,8 @@ button {
     gap: 0.5rem;
     padding: 0.45rem 1.25rem;
     border-radius: 100px;
-    background: rgba(201, 165, 78, 0.08);
-    border: 1px solid rgba(201, 165, 78, 0.15);
+    background: rgba(161, 255, 42, 0.08);
+    border: 1px solid rgba(161, 255, 42, 0.15);
     font-size: 0.85rem;
     color: var(--gold);
     font-weight: 500;
@@ -623,7 +627,7 @@ button {
     margin-left: 1rem;
     margin-right: 1rem;
     padding: 1.75rem;
-    background: rgba(17, 24, 39, 0.85);
+    background: rgba(3, 1, 53, 0.85);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-radius: var(--radius-lg);
@@ -717,7 +721,7 @@ button {
 }
 
 .servico-card:hover .servico-card__icon {
-    background: rgba(201, 165, 78, 0.2);
+    background: rgba(161, 255, 42, 0.2);
     transform: scale(1.05);
 }
 
@@ -775,7 +779,7 @@ button {
 }
 
 .servico-card:hover .servico-card__number {
-    color: rgba(201, 165, 78, 0.25);
+    color: rgba(161, 255, 42, 0.25);
 }
 
 /* ==========================================
@@ -804,8 +808,8 @@ button {
 }
 
 .diferencial--featured {
-    background: linear-gradient(160deg, rgba(201, 165, 78, 0.08), var(--bg-card) 40%);
-    border-color: rgba(201, 165, 78, 0.2);
+    background: linear-gradient(160deg, rgba(161, 255, 42, 0.08), var(--bg-card) 40%);
+    border-color: rgba(161, 255, 42, 0.2);
     transform: scale(1.02);
 }
 
@@ -851,7 +855,7 @@ button {
 }
 
 .diferencial:hover .diferencial__icon {
-    background: rgba(201, 165, 78, 0.2);
+    background: rgba(161, 255, 42, 0.2);
     transform: scale(1.08);
 }
 
@@ -859,7 +863,7 @@ button {
     position: absolute;
     inset: -8px;
     border-radius: 50%;
-    border: 1px dashed rgba(201, 165, 78, 0.15);
+    border: 1px dashed rgba(161, 255, 42, 0.15);
     animation: spin-slow 20s linear infinite;
 }
 
@@ -935,14 +939,14 @@ button {
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto 1.5rem;
-    border: 3px solid rgba(201, 165, 78, 0.2);
+    border: 3px solid rgba(161, 255, 42, 0.2);
     background: var(--bg-secondary);
     transition: var(--transition-base);
 }
 
 .equipe__member:hover .equipe__photo {
     border-color: var(--gold);
-    box-shadow: 0 0 0 6px rgba(201, 165, 78, 0.1);
+    box-shadow: 0 0 0 6px rgba(161, 255, 42, 0.1);
 }
 
 .equipe__photo img {
@@ -1075,7 +1079,7 @@ button {
 .form-group select:focus,
 .form-group textarea:focus {
     border-color: var(--gold);
-    box-shadow: 0 0 0 3px rgba(201, 165, 78, 0.1);
+    box-shadow: 0 0 0 3px rgba(161, 255, 42, 0.1);
 }
 
 .form-group select {
