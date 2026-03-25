@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="OGF Advogados - Soluções jurídicas ágeis, estratégicas e eficazes, com foco em economia e no melhor custo-benefício para sua empresa. Escritórios em São Paulo e Rio de Janeiro.">
+    <meta name="keywords"
+        content="Advogados, Advocacia, Expertise legal, Direito digital, Compliance, Contratos, Direito Empresarial, Contencioso Cível, Contencioso trabalhista, Direito do consumidor, LGPD, direito administrativo, OGF Advogados">
+    <meta name="author" content="OGF Advogados">
+    <title>OGF Advogados | Soluções Jurídicas Ágeis, Estratégicas e Eficazes</title>
+    <link rel="icon" href="https://www.ogfadvogados.com.br/img/ogf_oficial_logo.jpg" type="image/jpeg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web@2.0.3"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ========== HEADER / NAVBAR ========== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#hero" class="nav__logo">
+                <img src="https://www.ogfadvogados.com.br/img/logo-ogf-fundo-escuro.svg" alt="OGF Advogados"
+                    class="nav__logo-img">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#hero" class="nav__link active">Início</a></li>
+                    <li class="nav__item"><a href="#sobre" class="nav__link">Quem Somos</a></li>
+                    <li class="nav__item"><a href="#servicos" class="nav__link">Áreas de Atuação</a></li>
+                    <li class="nav__item"><a href="#diferenciais" class="nav__link">Diferenciais</a></li>
+                    <li class="nav__item"><a href="#equipe" class="nav__link">Equipe</a></li>
+                    <li class="nav__item"><a href="#contato" class="nav__link nav__link--cta">Fale Conosco</a></li>
+                </ul>
+
+                <button class="nav__close" id="nav-close">
+                    <i class="ph ph-x"></i>
+                </button>
+            </div>
+
+            <button class="nav__toggle" id="nav-toggle">
+                <i class="ph ph-list"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section class="hero" id="hero">
+        <div class="hero__bg-pattern"></div>
+        <div class="hero__content container">
+            <div class="hero__badge" data-reveal="up">
+                <i class="ph ph-scales"></i>
+                <span>Expertise Legal com Visão Empresarial</span>
+            </div>
+            <h1 class="hero__title" data-reveal="up" data-delay="100">
+                Soluções jurídicas<br>
+                <span class="text-gradient">ágeis, estratégicas</span><br>
+                e eficazes.
+            </h1>
+            <p class="hero__description" data-reveal="up" data-delay="200">
+                Atuamos de forma inovadora, propiciando ganhos aos clientes e repercussão positiva
+                para toda sociedade. Somos digitais, com <strong>visão empresarial</strong> e social.
+                Foco em economia e no <strong>melhor custo-benefício</strong> para sua empresa.
+            </p>
+            <div class="hero__actions" data-reveal="up" data-delay="300">
+                <a href="#contato" class="btn btn--primary">
+                    <span>Agende uma Consulta</span>
+                    <i class="ph ph-arrow-right"></i>
+                </a>
+                <a href="#servicos" class="btn btn--outline">
+                    <span>Conheça Nossos Serviços</span>
+                </a>
+            </div>
+            <div class="hero__stats" data-reveal="up" data-delay="400">
+                <div class="hero__stat">
+                    <span class="hero__stat-prefix">R$</span><span class="hero__stat-number"
+                        data-count="48">0</span><span class="hero__stat-suffix">M</span>
+                    <span class="hero__stat-label">Economia Gerada em 2024</span>
+                </div>
+                <div class="hero__stat-divider"></div>
+                <div class="hero__stat">
+                    <span class="hero__stat-number" data-count="2">0</span>
+                    <span class="hero__stat-label">Escritórios (SP e RJ)</span>
+                </div>
+                <div class="hero__stat-divider"></div>
+                <div class="hero__stat">
+                    <span class="hero__stat-number" data-count="6">0</span><span class="hero__stat-suffix">+</span>
+                    <span class="hero__stat-label">Áreas de Atuação</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll-indicator">
+            <span>Scroll</span>
+            <div class="hero__scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ========== SOBRE NÓS ========== -->
+    <section class="sobre section" id="sobre">
+        <div class="container">
+            <div class="sobre__grid">
+                <div class="sobre__content">
+                    <span class="section__tag" data-reveal="left">
+                        <i class="ph ph-buildings"></i> Quem Somos
+                    </span>
+                    <h2 class="section__title" data-reveal="left" data-delay="100">
+                        Seu parceiro jurídico<br>
+                        <span class="text-gradient">estratégico e confiável</span>
+                    </h2>
+                    <p class="sobre__text" data-reveal="left" data-delay="200">
+                        A <strong>OGF Advogados</strong> atua de forma inovadora, propiciando ganhos
+                        aos clientes e repercussão positiva para toda sociedade. Somos digitais, com
+                        visão empresarial e social. Escritórios em <strong>São Paulo</strong> e
+                        <strong>Rio de Janeiro</strong>, com presença nacional.
+                    </p>
+                    <p class="sobre__text" data-reveal="left" data-delay="250">
+                        Oferecemos soluções jurídicas ágeis, estratégicas e eficazes, com foco em
+                        <strong>economia</strong> e no melhor custo-benefício para sua empresa.
+                        Utilizamos ferramentas próprias como o <strong>OGF Risk Map</strong> e
+                        <strong>OGF Shield</strong> para resultados precisos através de jurimetria e KPIs.
+                    </p>
+                    <div class="sobre__values" data-reveal="left" data-delay="300">
+                        <div class="sobre__value">
+                            <div class="sobre__value-icon">
+                                <i class="ph-fill ph-shield-check"></i>
+                            </div>
+                            <div>
+                                <h4>Segurança</h4>
+                                <p>Atuação preventiva para blindar seu negócio</p>
+                            </div>
+                        </div>
+                        <div class="sobre__value">
+                            <div class="sobre__value-icon">
+                                <i class="ph-fill ph-handshake"></i>
+                            </div>
+                            <div>
+                                <h4>Transparência</h4>
+                                <p>Comunicação clara e honorários previsíveis</p>
+                            </div>
+                        </div>
+                        <div class="sobre__value">
+                            <div class="sobre__value-icon">
+                                <i class="ph-fill ph-target"></i>
+                            </div>
+                            <div>
+                                <h4>Resultado</h4>
+                                <p>Foco em soluções práticas e efetivas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre__visual" data-reveal="right" data-delay="200">
+                    <div class="sobre__card-stack">
+                        <div class="sobre__accent-card">
+                            <i class="ph-fill ph-scales"></i>
+                            <span class="sobre__accent-number">R$48M</span>
+                            <span class="sobre__accent-label">Economia gerada<br>para clientes em 2024</span>
+                        </div>
+                        <div class="sobre__glass-card">
+                            <div class="sobre__glass-icon">
+                                <i class="ph-fill ph-trend-up"></i>
+                            </div>
+                            <p class="sobre__glass-text">
+                                "Mais do que um lema, a <strong>visão empresarial</strong> se traduz em
+                                resultados concretos e mensuráveis, esse o nosso verdadeiro diferencial."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVIÇOS ========== -->
+    <section class="servicos section" id="servicos">
+        <div class="container">
+            <div class="section__header" data-reveal="up">
+                <span class="section__tag">
+                    <i class="ph ph-briefcase"></i> Áreas de Atuação
+                </span>
+                <h2 class="section__title">
+                    Soluções jurídicas<br>
+                    <span class="text-gradient">sob medida para você</span>
+                </h2>
+                <p class="section__subtitle">
+                    Oferecemos assessoria jurídica completa para empresas de todos os portes,
+                    com agilidade e o melhor custo-benefício do mercado.
+                </p>
+            </div>
+
+            <div class="servicos__grid">
+                <div class="servico-card" data-reveal="up" data-delay="0">
+                    <div class="servico-card__icon">
+                        <i class="ph-duotone ph-gavel"></i>
+                    </div>
+                    <h3 class="servico-card__title">Contencioso</h3>
+                    <p class="servico-card__desc">
+                        Atuação estratégica em litígios cíveis e comerciais, com foco em
+                        resultados eficazes e redução de riscos processuais para sua empresa.
+                    </p>
+                    <div class="servico-card__footer">
+                        <a href="#contato" class="servico-card__link">
+                            Saiba mais <i class="ph ph-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="servico-card__number">01</div>
+                </div>
+
+                <div class="servico-card" data-reveal="up" data-delay="100">
+                    <div class="servico-card__icon">
+                        <i class="ph-duotone ph-buildings"></i>
+                    </div>
+                    <h3 class="servico-card__title">Empresarial</h3>
+                    <p class="servico-card__desc">
+                        Constituição, alterações societárias, fusões, aquisições e toda a estrutura
+                        jurídica para o crescimento seguro do seu negócio.
+                    </p>
+                    <div class="servico-card__footer">
+                        <a href="#contato" class="servico-card__link">
+                            Saiba mais <i class="ph ph-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="servico-card__number">02</div>
+                </div>
+
+                <div class="servico-card" data-reveal="up" data-delay="200">
+                    <div class="servico-card__icon">
+                        <i class="ph-duotone ph-file-text"></i>
+                    </div>
+                    <h3 class="servico-card__title">Contratos</h3>
+                    <p class="servico-card__desc">
+                        Elaboração, revisão e negociação de contratos B2B, B2C e C2C,
+                        garantindo segurança e equilíbrio nas suas relações empresariais.
+                    </p>
+                    <div class="servico-card__footer">
+                        <a href="#contato" class="servico-card__link">
+                            Saiba mais <i class="ph ph-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="servico-card__number">03</div>
+                </div>
+
+                <div class="servico-card" data-reveal="up" data-delay="300">
+                    <div class="servico-card__icon">
+                        <i class="ph-duotone ph-shopping-cart"></i>
+                    </div>
+                    <h3 class="servico-card__title">Consumidor</h3>
+                    <p class="servico-card__desc">
+                        Defesa estratégica em relações de consumo, assessoria preventiva
+                        e gestão de riscos para proteger sua marca e seus clientes.
+                    </p>
+                    <div class="servico-card__footer">
+                        <a href="#contato" class="servico-card__link">
+                            Saiba mais <i class="ph ph-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="servico-card__number">04</div>
+                </div>
+
+                <div class="servico-card" data-reveal="up" data-delay="400">
+                    <div class="servico-card__icon">
+                        <i class="ph-duotone ph-house-line"></i>
+                    </div>
+                    <h3 class="servico-card__title">Família e Sucessões</h3>
+                    <p class="servico-card__desc">
+                        Planejamento patrimonial e sucessório, inventários, testamentos e
+                        questões familiares com sensibilidade e eficiência jurídica.
+                    </p>
+                    <div class="servico-card__footer">
+                        <a href="#contato" class="servico-card__link">
+                            Saiba mais <i class="ph ph-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="servico-card__number">05</div>
+                </div>
+
+                <div class="servico-card" data-reveal="up" data-delay="500">
+                    <div class="servico-card__icon">
+                        <i class="ph-duotone ph-users-three"></i>
+                    </div>
+                    <h3 class="servico-card__title">Trabalhista</h3>
+                    <p class="servico-card__desc">
+                        Gestão de riscos trabalhistas, defesa em reclamações, compliance
+                        trabalhista e consultoria preventiva para seu RH.
+                    </p>
+                    <div class="servico-card__footer">
+                        <a href="#contato" class="servico-card__link">
+                            Saiba mais <i class="ph ph-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="servico-card__number">06</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DIFERENCIAIS ========== -->
+    <section class="diferenciais section" id="diferenciais">
+        <div class="container">
+            <div class="section__header" data-reveal="up">
+                <span class="section__tag">
+                    <i class="ph ph-star-four"></i> Por que nos escolher
+                </span>
+                <h2 class="section__title">
+                    Nossos<br>
+                    <span class="text-gradient">diferenciais</span>
+                </h2>
+            </div>
+
+            <div class="diferenciais__grid">
+                <div class="diferencial" data-reveal="up" data-delay="0">
+                    <div class="diferencial__icon-wrapper">
+                        <div class="diferencial__icon">
+                            <i class="ph-fill ph-lightning"></i>
+                        </div>
+                        <div class="diferencial__icon-ring"></div>
+                    </div>
+                    <h3 class="diferencial__title">Agilidade</h3>
+                    <p class="diferencial__text">
+                        Processos otimizados e equipe dedicada para respostas rápidas.
+                        Seu tempo é valioso — e nós entendemos isso. Nada de burocracias
+                        desnecessárias ou demoras injustificadas.
+                    </p>
+                    <ul class="diferencial__list">
+                        <li><i class="ph ph-check-circle"></i> Respostas em até 24h</li>
+                        <li><i class="ph ph-check-circle"></i> Processos simplificados</li>
+                        <li><i class="ph ph-check-circle"></i> Atendimento digital</li>
+                    </ul>
+                </div>
+
+                <div class="diferencial diferencial--featured" data-reveal="up" data-delay="150">
+                    <div class="diferencial__badge">Destaque</div>
+                    <div class="diferencial__icon-wrapper">
+                        <div class="diferencial__icon">
+                            <i class="ph-fill ph-currency-circle-dollar"></i>
+                        </div>
+                        <div class="diferencial__icon-ring"></div>
+                    </div>
+                    <h3 class="diferencial__title">Custo-Benefício</h3>
+                    <p class="diferencial__text">
+                        Em 2024, geramos uma economia de <strong>R$ 48 milhões</strong> para
+                        nossos clientes, através de revisão de cálculos judiciais,
+                        provisionamentos e recuperação de depósitos.
+                    </p>
+                    <ul class="diferencial__list">
+                        <li><i class="ph ph-check-circle"></i> R$ 48M economizados em 2024</li>
+                        <li><i class="ph ph-check-circle"></i> OGF Risk Map & OGF Shield</li>
+                        <li><i class="ph ph-check-circle"></i> Jurimetria e KPIs</li>
+                    </ul>
+                </div>
+
+                <div class="diferencial" data-reveal="up" data-delay="300">
+                    <div class="diferencial__icon-wrapper">
+                        <div class="diferencial__icon">
+                            <i class="ph-fill ph-strategy"></i>
+                        </div>
+                        <div class="diferencial__icon-ring"></div>
+                    </div>
+                    <h3 class="diferencial__title">Estratégia</h3>
+                    <p class="diferencial__text">
+                        Cada caso é analisado com visão estratégica e de negócio. Não
+                        apenas resolvemos problemas — antecipamos riscos e criamos
+                        oportunidades para sua empresa crescer com segurança.
+                    </p>
+                    <ul class="diferencial__list">
+                        <li><i class="ph ph-check-circle"></i> Visão preventiva</li>
+                        <li><i class="ph ph-check-circle"></i> Análise de riscos</li>
+                        <li><i class="ph ph-check-circle"></i> Planejamento jurídico</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== EQUIPE / SÓCIOS ========== -->
+    <section class="equipe section" id="equipe">
+        <div class="container">
+            <div class="section__header" data-reveal="up">
+                <span class="section__tag">
+                    <i class="ph ph-users-four"></i> Nossa Equipe
+                </span>
+                <h2 class="section__title">
+                    Sócios<br>
+                    <span class="text-gradient">OGF Advogados</span>
+                </h2>
+                <p class="section__subtitle">
+                    Uma equipe de profissionais especializados, comprometidos com a excelência
+                    e com resultados concretos para nossos clientes.
+                </p>
+            </div>
+
+            <div class="equipe__grid">
+                <div class="equipe__member" data-reveal="up" data-delay="0">
+                    <div class="equipe__photo">
+                        <img src="https://www.ogfadvogados.com.br/img/equipe/francisco-1.png" alt="Francisco Gomes Jr.">
+                    </div>
+                    <h3 class="equipe__name">Francisco Gomes Jr.</h3>
+                    <span class="equipe__role">Sócio Fundador</span>
+                </div>
+
+                <div class="equipe__member" data-reveal="up" data-delay="100">
+                    <div class="equipe__photo">
+                        <img src="https://www.ogfadvogados.com.br/img/equipe/juliana-arcanjo-1.png"
+                            alt="Juliana Arcanjo">
+                    </div>
+                    <h3 class="equipe__name">Juliana Arcanjo</h3>
+                    <span class="equipe__role">Sócia</span>
+                </div>
+
+                <div class="equipe__member" data-reveal="up" data-delay="200">
+                    <div class="equipe__photo">
+                        <img src="https://www.ogfadvogados.com.br/img/equipe/bruna-rondelli.png" alt="Bruna Rondelli">
+                    </div>
+                    <h3 class="equipe__name">Bruna Rondelli</h3>
+                    <span class="equipe__role">Sócia</span>
+                </div>
+
+                <div class="equipe__member" data-reveal="up" data-delay="300">
+                    <div class="equipe__photo">
+                        <img src="https://www.ogfadvogados.com.br/img/equipe/bruna-pavlakis-1.png" alt="Bruna Pavlakis">
+                    </div>
+                    <h3 class="equipe__name">Bruna Pavlakis</h3>
+                    <span class="equipe__role">Sócia</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA / CONTATO ========== -->
+    <section class="contato section" id="contato">
+        <div class="container">
+            <div class="contato__wrapper">
+                <div class="contato__content" data-reveal="left">
+                    <span class="section__tag">
+                        <i class="ph ph-envelope-simple"></i> Fale Conosco
+                    </span>
+                    <h2 class="section__title">
+                        Pronto para proteger<br>
+                        <span class="text-gradient">o futuro da sua empresa?</span>
+                    </h2>
+                    <p class="contato__text">
+                        Agende uma consulta gratuita e descubra como a OGF pode ajudar sua empresa
+                        a crescer com segurança jurídica e economia.
+                    </p>
+
+                    <div class="contato__info">
+                        <div class="contato__info-item">
+                            <div class="contato__info-icon">
+                                <i class="ph-fill ph-phone"></i>
+                            </div>
+                            <div>
+                                <span>Telefone</span>
+                                <strong>+55 11 3060-9290</strong>
+                            </div>
+                        </div>
+                        <div class="contato__info-item">
+                            <div class="contato__info-icon">
+                                <i class="ph-fill ph-whatsapp-logo"></i>
+                            </div>
+                            <div>
+                                <span>WhatsApp</span>
+                                <strong>+55 11 97309-3493</strong>
+                            </div>
+                        </div>
+                        <div class="contato__info-item">
+                            <div class="contato__info-icon">
+                                <i class="ph-fill ph-map-pin"></i>
+                            </div>
+                            <div>
+                                <span>São Paulo</span>
+                                <strong>R. Cônego Eugênio Leite, 933 — Pinheiros</strong>
+                            </div>
+                        </div>
+                        <div class="contato__info-item">
+                            <div class="contato__info-icon">
+                                <i class="ph-fill ph-map-pin"></i>
+                            </div>
+                            <div>
+                                <span>Rio de Janeiro</span>
+                                <strong>R. da Quitanda, 30 — Centro</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contato__form" data-reveal="right" data-delay="200" id="contact-form">
+                    <h3 class="contato__form-title">Envie sua mensagem</h3>
+                    <div class="form-group">
+                        <label for="name">Nome completo</label>
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" placeholder="(00) 00000-0000">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Assunto</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>Selecione uma área</option>
+                            <option value="contencioso">Contencioso</option>
+                            <option value="empresarial">Empresarial</option>
+                            <option value="contratos">Contratos</option>
+                            <option value="consumidor">Consumidor</option>
+                            <option value="familia">Família e Sucessões</option>
+                            <option value="trabalhista">Trabalhista</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="4"
+                            placeholder="Descreva brevemente sua necessidade..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full">
+                        <span>Enviar Mensagem</span>
+                        <i class="ph ph-paper-plane-tilt"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <a href="#hero" class="nav__logo">
+                        <img src="https://www.ogfadvogados.com.br/img/logo-ogf-fundo-escuro.svg" alt="OGF Advogados"
+                            class="nav__logo-img">
+                    </a>
+                    <p class="footer__desc">
+                        Soluções jurídicas ágeis, estratégicas e eficazes, com foco
+                        em economia e no melhor custo-benefício para sua empresa.
+                    </p>
+                    <div class="footer__social">
+                        <a href="https://www.linkedin.com/company/ogf-advogadosoficial/" class="footer__social-link"
+                            aria-label="LinkedIn" target="_blank">
+                            <i class="ph ph-linkedin-logo"></i>
+                        </a>
+                        <a href="https://www.instagram.com/ogf_advogados/" class="footer__social-link"
+                            aria-label="Instagram" target="_blank">
+                            <i class="ph ph-instagram-logo"></i>
+                        </a>
+                        <a href="https://www.facebook.com/ogfadvogados/" class="footer__social-link"
+                            aria-label="Facebook" target="_blank">
+                            <i class="ph ph-facebook-logo"></i>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCqYCecWmXJ53rpT19ZwHLRg/" class="footer__social-link"
+                            aria-label="YouTube" target="_blank">
+                            <i class="ph ph-youtube-logo"></i>
+                        </a>
+                        <a href="https://wa.me/5511973093493" class="footer__social-link" aria-label="WhatsApp"
+                            target="_blank">
+                            <i class="ph ph-whatsapp-logo"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__links">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#sobre">Quem Somos</a></li>
+                        <li><a href="#servicos">Áreas de Atuação</a></li>
+                        <li><a href="#diferenciais">Diferenciais</a></li>
+                        <li><a href="#equipe">Equipe</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__links">
+                    <h4>Áreas de Atuação</h4>
+                    <ul>
+                        <li><a href="#servicos">Contencioso</a></li>
+                        <li><a href="#servicos">Empresarial</a></li>
+                        <li><a href="#servicos">Contratos</a></li>
+                        <li><a href="#servicos">Consumidor</a></li>
+                        <li><a href="#servicos">Família e Sucessões</a></li>
+                        <li><a href="#servicos">Trabalhista</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__links">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li>
+                            <i class="ph ph-phone"></i>
+                            +55 11 3060-9290
+                        </li>
+                        <li>
+                            <i class="ph ph-whatsapp-logo"></i>
+                            +55 11 97309-3493
+                        </li>
+                        <li>
+                            <i class="ph ph-map-pin"></i>
+                            SP — R. Cônego Eugênio Leite, 933
+                        </li>
+                        <li>
+                            <i class="ph ph-map-pin"></i>
+                            RJ — R. da Quitanda, 30
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2025 OGF Advogados. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5511973093493" class="whatsapp-float" target="_blank" aria-label="Contato via WhatsApp">
+        <i class="ph-fill ph-whatsapp-logo"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
